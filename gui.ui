@@ -25,32 +25,24 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="browse">
+      <widget class="QPushButton" name="surface_btn">
+       <property name="text">
+        <string>Surface Rendering</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="browse_btn">
        <property name="text">
         <string>Load Images</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="mode_select">
-       <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
+      <widget class="QPushButton" name="ray_casting_btn">
+       <property name="text">
+        <string>Ray Casting Rendering</string>
        </property>
-       <item>
-        <property name="text">
-         <string>Choose Mode</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Surface Rendering</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Ray Casting Rendering</string>
-        </property>
-       </item>
       </widget>
      </item>
     </layout>
@@ -93,7 +85,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QFrame" name="frame1_viewer">
+   <widget class="QFrame" name="surface_viewer">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -109,7 +101,7 @@
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
-   <widget class="QFrame" name="frame2_viewer">
+   <widget class="QFrame" name="ray_casting_viewer">
     <property name="geometry">
      <rect>
       <x>480</x>
