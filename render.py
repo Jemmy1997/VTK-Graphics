@@ -33,6 +33,7 @@ class AppWindow(QtWidgets.QMainWindow):
         self.iren2 = self.vtkwid2.GetRenderWindow().GetInteractor()
 
         self.pathDir = ""
+        self.reader =""
 
 
 
